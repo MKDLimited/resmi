@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{      
+    background-image: linear-gradient( 135deg, #FFF5C3 10%, #9452A5 100%);
+    animation: backAnim 5s infinite ;
+    background-size: 200% auto;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+#top-menu{
+    background-color: #252525 ;
+    height: 130px;
+}
+#logo-box img{
+    max-width: 220px;
+    display: inline-block;
+    position: absolute;
+}
+#logo-box{
+    width: 300px;
+}
+#menu{
+    float: right;
+    margin-top: 70px;
+    margin-right: 50px;
+}
+#menu ul{
+    list-style-type: none;
+}
+#menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+}
+#menu ul li a{
+    color: #F2F2F2;
+    font-size: 20px;
+    margin-right: 10px;
+}
+#header{
+    background-color: #252525;
+    border-radius: 0 0 100px 100px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #252525;
+    padding: 0;
+    height: 250px;
+
+}
+#header h1{
+    background-image: linear-gradient( 135deg, #FFF5C3 10%, #9452A5 100%);
+    font-size: 160px;
+    margin-bottom: 0;
+    display:block;
+    animation: headerAnim 5s infinite;
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#knownField{
+    margin-top: 100px;
+    text-align: center;
+}
+#kitem{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    background-color: #252525;
+    padding: 20px;
+    color: #F2F2F2;
+    border-radius: 10px;
+    width: 40%;
+    margin-bottom: 40px;
+}
+#generalKitem{
+    background-color: #252525;
+    padding: 30px;
+    max-width: 90%;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+}
+#generalKitem h1{
+    width: 50%;
+    color: #F2F2F2;
+    font-family: 'Bebas Neue', cursive;
+}
+#generalKitem p{
+    text-align: right;
+    color: #413f3f;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+}
+#kitem i{
+    font-size: 20px;
+}
+#kitem h5{
+    letter-spacing: 4px;
+    font-family: 'Poppins',sans-serif;
+}
+#kitem h1{
+    letter-spacing: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+
+#fields{
+    margin-top: 100px;
+}
+#item{
+    width: 30%;
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: #252525;
+    color: #F2F2F2;
+    padding: 5px;
+    border-radius: 5px;
+    height: 600px;
+    margin-bottom: 20px;
+}
+#item i{
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    background-color: #F2F2F2;
+    color: #252525;
+    padding: 5px;
+    border-radius: 3px;
+}
+#item h1{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+#item p{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+}
+#item img{
+    max-width: 80%;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 2px solid #F2F2F2;
+    border-radius: 3px;
+}
+#footer{
+    background-color: #252525;
+    padding: 20px;
+}
+#footer img{
+    width: 200px;
+}
+#copyright{
+    color: #F2F2F2;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+@keyframes headerAnim{
+    to {
+        background-position: 200% center;
+      }
+}
+@keyframes backAnim{
+    
+    to{
+        background-position: 200% center;
+
+    }
+}
+@keyframes headerAnim2{
+    0%{
+        height: 200px;
+    }
+    10%{
+        height: 150px;
+    }
+    20%{
+        height: 100px;
+    }
+    30%{
+        height: 50px;
+    }
+    40%{
+        height: 70px;
+    }
+    50%{
+        height: 50px;
+    }
+    60%{
+        height: 70px;
+    }
+    70%{
+        height: 50px;
+    }
+    80%{
+        height: 100px;
+    }
+    90%{
+        height: 150px;
+    }
+    100%{
+        height: 200px;
+    }
+
+}
+@media only screen and (max-width: 512px) {
+    #menu{
+        margin-top: 120px;
+    }
+    #top-menu{
+        height: 150px;
+    }
+    #item{
+        width: 90%;
+    }
+}
